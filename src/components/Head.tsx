@@ -1,9 +1,20 @@
 import React from "react";
 
-export const Head = () => {
+// title
+// isActive
+
+type Props = {
+    title: string;
+    isActive: boolean;
+};
+
+export const Head = ({ title, isActive }: Props) => {
     return (
         <div>
-            <h1>Hello</h1>
+            <h1>{title}</h1>
+            {isActive &&
+                <h3>Active</h3>}
         </div>
     );
 };
+
