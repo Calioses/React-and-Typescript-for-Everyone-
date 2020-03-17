@@ -6,3 +6,4 @@ type Props = {
 };
 
 export const Button = ({ onClick }: Props) => <button onClick={() => onClick('hi')}>Click me</button>;
+ 
