@@ -4,11 +4,11 @@ import React from "react";
 // isActive
 
 type Props = {
-    title: string;
-    isActive: boolean;
+    title: string; //Required
+    isActive?: boolean; //Optional
 };
 
-export const Head = ({ title, isActive }: Props) => {
+export const Head = ({ title, isActive = true }: Props) => {
     return (
         <div>
             <h1>{title}</h1>
