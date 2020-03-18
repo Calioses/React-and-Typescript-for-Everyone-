@@ -13,9 +13,9 @@ const App: React.FC = () => {
         e.preventDefault();
         console.log(e);
         }}
-        />
+        >reactFC</Button>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="logo" />
         <p>
           Write <code>src/App.tsx</code> and save to reload.
         </p>
